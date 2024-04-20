@@ -2,7 +2,7 @@
  
 ## sch
 
-- [led_chika.kicad_sch](led_chika.kicad_sch)
+- [PikapikaBoard.kicad_sch](PikapikaBoard.kicad_sch)
 - ![sch.png](sch.png)
 
 ## reference
