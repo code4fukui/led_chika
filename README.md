@@ -1,4 +1,4 @@
-# led_chika
+# PCB PikapikaBoard
  
 ## sch
 
