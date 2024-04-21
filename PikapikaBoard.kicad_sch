@@ -614,6 +614,188 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V0"
 			(power)
 			(pin_numbers hide)
@@ -844,6 +1026,12 @@
 		(uuid "184ad85b-1379-496b-98fc-081238cd7ed9")
 	)
 	(junction
+		(at 104.14 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36a966ef-0219-4c58-8020-a284ed7876b1")
+	)
+	(junction
 		(at 114.3 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -865,29 +1053,19 @@
 		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a5d9989-2ebe-4d3c-a6a5-ff94a8b4ecc7")
+		(uuid "9fa95193-7b6b-4baf-b84e-df81ab39cac4")
+	)
+	(junction
+		(at 114.3 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f4e7b8-ac14-4117-9a85-1b0214bd60e7")
 	)
 	(junction
 		(at 139.7 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8863f40-e11e-48a7-b2ad-d8b7e157b8a4")
-	)
-	(junction
-		(at 114.3 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe2dc4ed-4eee-42b3-b306-3bcd6e797c73")
-	)
-	(wire
-		(pts
-			(xy 114.3 57.15) (xy 114.3 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f58613-07af-4fa0-9527-9fa8ad7de585")
 	)
 	(wire
 		(pts
@@ -918,6 +1096,16 @@
 			(type default)
 		)
 		(uuid "0e94bb6d-582b-40dd-a571-9481e430be7a")
+	)
+	(wire
+		(pts
+			(xy 102.87 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1620b60d-8115-40ed-be39-afe2e3f7d5e7")
 	)
 	(wire
 		(pts
@@ -981,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 60.96) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51004bf4-8683-4b14-8977-5e409d68b74d")
+	)
+	(wire
+		(pts
 			(xy 177.8 91.44) (xy 177.8 96.52)
 		)
 		(stroke
@@ -988,6 +1186,16 @@
 			(type default)
 		)
 		(uuid "5538752b-b031-4678-af4b-9243d58165ec")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 92.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60917264-6583-49a3-b493-7850631e2a3d")
 	)
 	(wire
 		(pts
@@ -1031,6 +1239,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 121.92) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b9153a-bf06-43e3-a6f5-eec08913b6bd")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0c836d-6be9-4adb-9426-db502acf60d7")
+	)
+	(wire
+		(pts
 			(xy 114.3 63.5) (xy 114.3 71.12)
 		)
 		(stroke
@@ -1061,16 +1289,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 114.3 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39ad333-0897-4e70-9910-8009ab8c1a96")
-	)
-	(wire
-		(pts
 			(xy 177.8 121.92) (xy 114.3 121.92)
 		)
 		(stroke
@@ -1078,6 +1296,16 @@
 			(type default)
 		)
 		(uuid "b70f946e-87be-4562-b8f4-09c15904f32f")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e3ed3b-c8ee-4a7c-9efb-9932b97a3e83")
 	)
 	(wire
 		(pts
@@ -1128,6 +1356,16 @@
 			(type default)
 		)
 		(uuid "d9a3b306-f096-49bf-9134-e69a8f7b0b98")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1818d2-da24-4450-93f3-78949e248f41")
 	)
 	(wire
 		(pts
@@ -1255,7 +1493,7 @@
 			(uuid "da9e3d7f-4809-4285-a4e8-8a255f8cf58c")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "TR1")
 					(unit 1)
@@ -1325,7 +1563,7 @@
 			(uuid "439cf600-b881-4ec9-bd97-77b24e7f57f4")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "D2")
 					(unit 1)
@@ -1393,7 +1631,7 @@
 			(uuid "55b12621-06c4-4049-95aa-7b606db48bc2")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "C1")
 					(unit 1)
@@ -1403,7 +1641,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 114.3 57.15 0)
+		(at 78.74 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1412,7 +1650,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e8c7da1-57d6-4cb6-9d7a-a4169dfc72bf")
 		(property "Reference" "#PWR01"
-			(at 114.3 60.96 0)
+			(at 78.74 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1659,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 114.3 52.07 0)
+			(at 78.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 57.15 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 57.15 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 114.3 57.15 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,75 +1697,9 @@
 			(uuid "d8449829-6ec8-4b00-ab3d-ea476a3e5523")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4635a265-2199-49ed-abbf-c8efe3f6c1fd")
-		(property "Reference" "#PWR02"
-			(at 114.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "228d59cb-c596-42f3-83a6-0343031dc773")
-		)
-		(instances
-			(project "led_chika"
-				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1595,7 +1767,7 @@
 			(uuid "14f484bc-ed0e-46d9-9e1a-12b0571cb4d3")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "R1")
 					(unit 1)
@@ -1664,7 +1836,7 @@
 			(uuid "543f1f4b-2b5a-48c6-8bcd-e6bc7059a035")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "R3")
 					(unit 1)
@@ -1734,9 +1906,75 @@
 			(uuid "1c373441-1a63-4dd6-8aab-e197ef074948")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cb7e478-b8c9-4db6-a333-1126a2b407fa")
+		(property "Reference" "#PWR03"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaa211a1-9b94-4e2b-841a-fa29867f7983")
+		)
+		(instances
+			(project "PikapikaBoard"
+				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1802,7 +2040,7 @@
 			(uuid "301a0967-3b23-4c92-8247-9922564d8097")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "C2")
 					(unit 1)
@@ -1872,7 +2110,7 @@
 			(uuid "1ac5a042-a8a4-4f4f-aeb1-d0cb488bc99a")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "R4")
 					(unit 1)
@@ -1942,9 +2180,81 @@
 			(uuid "c902731f-51c9-45d5-aa31-71ab1603085c")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 97.79 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae0063fc-e688-4a19-b8cc-5b46462f2dec")
+		(property "Reference" "SW1"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c10e6b9-af03-4446-aebd-536d378cfb93")
+		)
+		(pin "1"
+			(uuid "615a4c8d-b906-47b6-bb19-127024fad703")
+		)
+		(pin "2"
+			(uuid "d9d240b9-1a07-4704-a682-2486ab5f3c3d")
+		)
+		(instances
+			(project "PikapikaBoard"
+				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2325,7 @@
 			(uuid "affc4115-e4ad-429e-b2cd-aebf171612ec")
 		)
 		(instances
-			(project "led_chika"
+			(project "PikapikaBoard"
 				(path "/ab565562-ee85-455c-84e7-4eb9c38a4f3a"
 					(reference "TR2")
 					(unit 1)
